@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquitectura Cliente/Servidor - Etapa 1 UNAD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <h1>Arquitectura Cliente/Servidor en el Desarrollo Web</h1>
+    <p>Etapa 1 - Conceptos Previos</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#cliente-servidor">Cliente/Servidor</a></li>
+        <li><a href="#diseno">Diseño Centrado en el Usuario</a></li>
+        <li><a href="#investigacion">Importancia de la Investigación</a></li>
+        <li><a href="#referencias">Referencias</a></li>
+    </ul>
+</nav>
+
+<main>
+
+    <section id="cliente-servidor">
+        <h2>Arquitectura Cliente/Servidor</h2>
+
+        <p>
+        La arquitectura cliente-servidor constituye el modelo fundamental que permite el funcionamiento dinámico de la web. 
+        Gracias a esta estructura, las aplicaciones no se limitan a mostrar documentos estáticos, sino que ofrecen servicios 
+        interactivos y personalizados. En este modelo, el lado del cliente —representado por el navegador— se encarga de 
+        interactuar con el usuario y solicitar recursos, mientras que el servidor procesa la lógica del sistema, administra 
+        las bases de datos y responde a múltiples solicitudes de manera simultánea.
+        </p>
+
+        <p>
+        Su importancia radica en la centralización de la información y en la posibilidad de escalar el servicio para atender 
+        a numerosos usuarios al mismo tiempo. Mediante protocolos de comunicación establecidos, el servidor entrega 
+        información procesada en tiempo real, como resultados de búsqueda, correos electrónicos o contenido multimedia, 
+        garantizando eficiencia y organización en la gestión de datos.
+        </p>
+        <p>
+        ... ofreciendo eficiencia y organización en la gestión de datos (Luján, 2002; Infranetworking, 2019).
+        </p>
+
+        <button onclick="mostrarInfo()">Mostrar más información</button>
+
+        <div id="infoExtra" class="oculto">
+            <p>
+            Es importante destacar que, en ciertos contextos, un cliente puede asumir funciones de servidor al almacenar datos 
+            localmente para evitar consultas repetitivas, optimizando así el rendimiento del sistema. Este comportamiento demuestra 
+            cómo las especificaciones técnicas pueden ajustarse para mejorar la eficiencia en la comunicación entre cliente y servidor.
+            </p>
+        </div>
+
+    </section>
+
+    <section id="diseno">
+        <h2>Diseño Centrado en el Usuario</h2>
+
+        <p>
+        El diseño centrado en el usuario es un enfoque metodológico que prioriza las necesidades, capacidades y expectativas 
+        de las personas que interactuarán con el sistema. Este modelo busca desarrollar interfaces intuitivas, accesibles y 
+        eficientes, garantizando que la tecnología se adapte al usuario y no al contrario.
+        </p>
+
+        <p>
+        Para lograrlo, se realizan análisis previos del contexto, pruebas de usabilidad y procesos iterativos de mejora. 
+        De esta manera, el sistema final no solo cumple con requisitos técnicos, sino que también ofrece una experiencia 
+        de uso satisfactoria.
+        </p>
+
+        <ul>
+            <li>Usabilidad</li>
+            <li>Accesibilidad</li>
+            <li>Experiencia de usuario</li>
+            <li>Evaluación continua</li>
+        </ul>
+        <p>
+        ... garantizando que la tecnología se adapte al usuario y no al contrario (Granollers, 2012).
+        </p>
+
+    </section>
+
+    <section id="investigacion">
+        <h2>Importancia de la Investigación</h2>
+
+        <p>
+        La investigación en el territorio es un paso determinante para el análisis de requisitos y la definición de 
+        especificaciones técnicas en programación web. Este proceso permite identificar las condiciones reales del entorno, 
+        como la capacidad de la red, el tipo de hardware disponible y las necesidades específicas de la organización.
+        </p>
+
+        <p>
+        Comprender el contexto facilita la elección adecuada de la arquitectura tecnológica, ya sea en dos capas, 
+        tres capas o múltiples capas, optimizando el flujo de información y garantizando la viabilidad del proyecto. 
+        Además, permite anticipar aspectos relacionados con la seguridad, el presupuesto y la sostenibilidad del sistema.
+        </p>
+
+    </section>
+
+    <section id="referencias">
+        <h2>Referencias</h2>
+
+        <p>
+        Schiaffarino, A. (2019, 12 de marzo). Modelo cliente servidor. 
+        Infranetworking. https://blog.infranetworking.com/modelo-cliente-servidor/
+        </p>
+
+        <p>
+        Granollers, T. (2012). Diseño de sistemas interactivos centrados en el usuario. 
+        Editorial UOC.
+        </p>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>Desarrollado por Fredy Manuel Gomez Yepez - UNAD 2026</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
